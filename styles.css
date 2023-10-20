@@ -39,9 +39,8 @@ ol{
     margin: 0;
     padding: 0;
     width: 100vw;
-    grid-template-rows: 20px;
+    grid-template-rows: 40px;
     align-items: center;
-
 }
 
 li{
@@ -62,13 +61,13 @@ h1{
 }
 
 .day__name{
-    background-color: #eee;
+    background-color: #eeeeeec9;
     font-weight: bold;
     font-size: .85em;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;    
+    text-align: center;
 }
 
 button{
@@ -91,4 +90,10 @@ button:hover {
 
 #up{
     bottom: 95px;
+}
+
+@media (min-width: 48rem){
+    .day__name{
+        height: 50px;    
+    }
 }
